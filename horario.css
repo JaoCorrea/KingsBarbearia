@@ -1,0 +1,19 @@
+table {
+    width: 50%; /* Define a largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre bordas */
+  
+  }
+  
+  th, td {
+    border: 1px solid #000; /* Adiciona bordas às células */
+    padding: 8px; /* Espaçamento interno nas células */
+    text-align: center; /* Centraliza o texto */
+  
+  }
+  #bodyhora {
+    display: flex; /* Utiliza flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+    margin: 0; /* Remove margem padrão */
+  }
