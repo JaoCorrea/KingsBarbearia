@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário Animado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendario-container">
+        <div class="calendario-header">
+            <button class="btn-anterior">&lt;</button>
+            <div class="mes-atual">
+                <select id="mes">
+                    <option value="1">Janeiro</option>
+                    <option value="2">Fevereiro</option>
+                    <option value="3">Março</option>
+                    <option value="4">Abril</option>
+                    <option value="5">Maio</option>
+                    <option value="6">Junho</option>
+                    <option value="7">Julho</option>
+                    <option value="8">Agosto</option>
+                    <option value="9" selected>Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
+                <span id="ano">2024</span>
+            </div>
+            <button class="btn-proximo">&gt;</button>
+        </div>
+        
+        <div class="semana-header">
+            <div>Dom</div>
+            <div>Seg</div>
+            <div>Ter</div>
+            <div>Qua</div>
+            <div>Qui</div>
+            <div>Sex</div>
+            <div>Sáb</div>
+        </div>
+        
+        <div class="dias-container" id="dias-container">
+            <!-- Os dias serão gerados dinamicamente aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
