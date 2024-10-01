@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="cadastro">
+    <header>
+        <img class="barber" src="imagens/barber.png" alt="">
+        <div class="logo">
+
+            <a href="index.html"><img src="imagens/logo.png" alt=""></a>
+
+        </div>
+        <img class="barber" src="imagens/barber.png" alt="">
+    </header>
+    <main>
+        <div class="cad">
+            <h1>Agendar</h1>
+            <div class="input">
+                <h4>Serviço desejado</h4>
+                <select name="sevico" id="servico">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Corte cabelo</option>
+                    <option>Barba/Bigode</option>
+                    <option>Sombrancelha</option>
+                    <option>Pintura</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <h4>Data</h4>
+                <input type="date" name="date" id="date">
+                <br>
+                <h9 id="date_h"></h9>
+            </div>
+            <div class="input">
+                <h4>Hora</h4>
+                <input type="time" name="hora" id="hora">
+                <br>
+                <h9 id="hora_h"></h9>
+            </div>
+            <div class="input">
+                <h4>Profissional</h4>
+                <select name="prof" id="prof">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Matheus Meza</option>
+                    <option>JVC</option>
+                    <option>Matheus</option>
+                    <option>Meza</option>
+                </select>
+            </div>
+
+            <button class="cad_botao">Agendar</button>
+
+        </div>
+    </main>
+</body>
+</html>
