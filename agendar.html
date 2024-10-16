@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="cadastro">
+    <header>
+        <div class="header">
+            <img class="barber" src="imagens/barber.png" alt="">
+            <div class="logo">
+    
+                <a href="index.html"><img src="imagens/logo.png" alt=""></a>
+    
+            </div>
+            <img class="barber" src="imagens/barber.png" alt="">
+        </div>
+        <div class="barra_navegar">
+            <a href="cadastros.html"><h3>Cadastrar</h3></a>
+            <a href="tabela_de_servico.html"><h3>Tabela de Serviços</h3></a>
+            <a href="historico.html"><h3>Histórico</h3></a>
+            <a href="agendar.html"><h3>Agendar</h3></a>
+        </div>
+    </header>
+    <main>
+        <div class="cad">
+            <h1>Agendar</h1>
+            <div class="input">
+                <h4>Serviço desejado</h4>
+                <select name="sevico" id="servico">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Corte cabelo</option>
+                    <option>Barba/Bigode</option>
+                    <option>Sombrancelha</option>
+                    <option>Pintura</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <h4>Data</h4>
+                <input type="date" name="date" id="date">
+                <br>
+            </div>
+            <div class="input">
+                <h4>Hora</h4>
+                <input type="time" name="hora" id="hora">
+                <br>
+            </div>
+            <div class="input">
+                <h4>Profissional</h4>
+                <select name="prof" id="prof">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Matheus Meza</option>
+                    <option>JVC</option>
+                    <option>Matheus</option>
+                    <option>Meza</option>
+                </select>
+            </div>
+
+            <button class="cad_botao" onclick="agendar()">Agendar</button>
+            <br>
+            <br>
+            <br>
+            <h7 id="servico_h"></h7>
+            <br>    
+            <h7 id="date_h"></h7>
+            <br>
+            <h7 id="hora_h"></h7>
+            <br>
+            <h7 id="prof_h"></h7>
+        </div>
+        <footer>
+        </footer>
+    </main>
+</body>
+</html>
