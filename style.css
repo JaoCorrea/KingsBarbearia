@@ -2,20 +2,25 @@ body{
     margin: 0;
     background: url(imagens/barbeiro.png) no-repeat center fixed;
     background-size: cover;    
-
+   
 }
 .header{
     display: flex;
     justify-content: space-around;
-    background: rgba(108, 108, 108, 0.456); /* fundo */
-    padding: 9px;
+    background: rgba(34, 34, 34, 0.456); /* fundo */
+    padding: 19px;
+    border: 4px solid #000;
+    
 }
 .barber{
     width: 3rem;
 
 }
 header img{
-    width: 10rem;
+    width: 12rem;
+    background-color: #000;
+    border: 2px solid #fab10e;
+    border-radius: 30px;
 }
 .barra_navegar{
     display: flex;
@@ -25,6 +30,11 @@ header img{
     padding-left: 4em;
     height: 2em;
     align-items: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border-left: 4px solid black;
+   border-right: 4px solid black;
+   border-bottom: 4px solid black;
+
 }
 .barra_navegar a{
     text-decoration: none;
@@ -45,6 +55,7 @@ header img{
     background: linear-gradient(45deg,#000, #555555,#555555);  /* fundo */
     padding: 50px;
     border: 5px double white; /* borda */
+    
 
 }
 .meiocadastro{
@@ -56,6 +67,7 @@ header img{
     padding: 50px;
     border: 5px double white; /* borda */
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 .meio img{
@@ -95,22 +107,17 @@ header img{
 
 }
 footer{
-    background-color: #55555536; /* fundo */
+
     display: flex;
     justify-content: center;
     margin-top: 10rem;
     padding: 3rem;
+    height: 150px;
+    background: rgba(34, 34, 34, 0.456); /* fundo */
+    padding: 19px;
+    border: 4px solid black;
 
 }
-
-
-
-
-
-
-
-
-
 
 
 .cadastro{
